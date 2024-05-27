@@ -22,4 +22,4 @@ def collect_data(interval, duration, output_file):
 
 print('Tracking...')
 collect_data(interval=5, duration=60, output_file='usage_log.csv')
-
+print('Tracking stopped.')
